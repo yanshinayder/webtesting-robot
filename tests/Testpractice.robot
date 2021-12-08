@@ -1,12 +1,10 @@
 *** Settings ***
-Library     Sellenium 
+Resource        ../resources/resource.robot
+Test Setup      Abrir navegador
+Test Teardown   Fechar navegador
 
-
-*** Variables ***
-${URL}          http://automationpractice.com/index.php
-${BROWSER}      chrome   
-
-
+###SETUP roda keyword antes da suíte ou antes do teste
+### TEARDOWN roda keyword depois de uma suíte ou de um teste
 
 
 *** Test Case ***
