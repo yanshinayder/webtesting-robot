@@ -16,3 +16,7 @@ Abrir navegador
 Fechar navegador
     Close Browser    
 
+###passo-a-passo
+Acessar a página home do site
+    Title Should Be  My Store
+
